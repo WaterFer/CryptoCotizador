@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador de CriptoModenas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cryptos.css">
+</head>
+<body>
+        <div id="page-container">
+            <div id="container">
+                <img src="img/undraw_stock_prices_re_js33.svg">
+            </div>
+            <div id="hola">
+                <form id="form">
+                    <div class="contain-select">
+                        <label for="coin" class="sub-title">ELIGE TU MONEDA</label>
+                            <select name="coin" id="coin" class="select">
+                                <option value="" selected disabled>Selecciona una moneda!</option>
+                                <option value="USD">Dolar Estadounidense</option>
+                                <option value="EUR">Euros</option>
+                                <option value="ARS">Peso Argentino</option>
+                                <option value="VES">Bolivares Fuertes</option>
+                            </select>
+                    </div>
+                    <div class="contain-select">
+                        <label for="cryptocoin" class="sub-title">ELIGE TU CRYPTOMONEDA</label>
+                            <select name="crypto" id="crypto" class="select">
+                                <option value="" selected disabled> Selecciona una CryptoMoneda!</option>
+                                <option value="BTC">BitCoin</option>
+                                <option value="ETH">Ethereum</option>
+                                <option value="AXS">AXS</option>
+                                <option value="BNB">BinanceCoin</option>
+                            </select>
+                        </div>
+                    <div class="contain-select">
+                        <label for="Monto"class="sub-title">MONTO</label>
+                        <input type="text" id="monto" class="select" placeholder="Ingrese el monto a cotizar...">
+                    </div>
+                    <div class="contain-select">
+                        <button id="btn">Cotizar</button>
+                    </div>           
+            </form>
+                <div id="coin-info">
+                    
+                </div>
+            </div>
+        </div> 
+           
+<script src="cryptos.js"></script>
+</body>
+</html>
